@@ -39,7 +39,7 @@ safety==1.8.7
 six==1.14.0
 sqlparse==0.3.1
 toml==0.10.0
-Unidecode==1.1.1
+Unidecode==1.1.2
 urllib3==1.25.11
 virtualenv==20.0.15
 virtualenv-clone==0.5.4
