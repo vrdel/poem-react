@@ -19,7 +19,7 @@ dparse==0.5.0
 elementpath==2.2.1
 filelock==3.0.12
 idna==2.8
-importlib-metadata==1.6.0
+importlib-metadata==4.6.3
 importlib-resources==1.4.0
 jsonpickle==2.0.0
 ndg-httpsclient==0.5.1
