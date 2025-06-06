@@ -82,7 +82,7 @@
     "webpack": "^5.91.0",
     "webpack-bundle-tracker": "^1.8.1",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.15.2",
+    "webpack-dev-server": "^5.2.1",
     "word-wrap": "^1.2.5",
     "yup": "^1.4.0"
   },
