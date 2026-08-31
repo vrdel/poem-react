@@ -1,0 +1,55 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: importlib-metadata
+    versions:
+    - 3.10.0
+    - 3.10.1
+    - 3.4.0
+    - 3.6.0
+    - 3.7.0
+    - 3.7.2
+    - 3.7.3
+    - 3.9.0
+    - 4.0.0
+  - dependency-name: djangosaml2
+    versions:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6.post1
+    - 1.0.7
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+  - dependency-name: asgiref
+    versions:
+    - 3.3.1
+    - 3.3.2
+  - dependency-name: django
+    versions:
+    - 2.2.18
+  - dependency-name: cryptography
+    versions:
+    - 3.3.2
+  - dependency-name: urllib3
+    versions:
+    - 1.26.3
+  - dependency-name: unidecode
+    versions:
+    - 1.1.2
+  - dependency-name: pysaml2
+    versions:
+    - 6.5.1
+  - dependency-name: pytz
+    versions:
+    - "2020.5"
+  - dependency-name: packaging
+    versions:
+    - "20.8"
